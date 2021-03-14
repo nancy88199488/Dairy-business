@@ -13,8 +13,7 @@ function triangle() {
         a = parseFloat(a);
         b = parseFloat(b);
         c = parseFloat(c);
-    
-
+        track(a,b,c);
     }
 
 
