@@ -9,8 +9,11 @@ function triangle() {
     if(a. length === 0 || b.length === 0 || c.length === 0 ) {
         display.innerHTML = "<p>please <span class='fill>FILL</span> all the fields </p>"
 
+    } else {
+        a = parseFloat(a);
+    
+
     }
 
 
     
-}
