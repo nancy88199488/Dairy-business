@@ -21,6 +21,10 @@ function track(a,b,c) {
         if(a === b && a === c) {
             display.innerHTML = "< class='display-text'>That is an <span class='type'>Equilateral</span> triangle<p><span class='fill'>ALL</span> sides are equal";
         }
+        else if(a === b || b === c || a === c) {
+            display.innerHTML = "<p class='display-text'>That is an <span class='type'>Isosceles</span> triangle<p><span class='fill'>TWO</span> sides are equal";
+        }
+
 
     }
 }
