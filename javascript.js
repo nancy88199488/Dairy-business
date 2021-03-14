@@ -11,6 +11,7 @@ function triangle() {
 
     } else {
         a = parseFloat(a);
+        b = parseFloat(b);
     
 
     }
