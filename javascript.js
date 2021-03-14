@@ -6,7 +6,10 @@ function triangle() {
     var [a,b,c] = sides;
     var display = document.getElementById("display");
     var explanation = document.getElementById("explanation");
-    
+    if(a. length === 0 || b.length === 0 || c.length === 0 ) {
+        
+    }
+
 
     
 }
