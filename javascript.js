@@ -15,6 +15,10 @@ function triangle() {
         c = parseFloat(c);
         track(a,b,c);
     }
+}
+function track(a,b,c) {
+    
+}
 
 
     
