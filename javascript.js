@@ -18,7 +18,10 @@ function triangle() {
 }
 function track(a,b,c) {
     if(a + b > c && b + c > a && c + a > b) {
-        
+        if(a === b && a === c) {
+            display.innerHTML = "< class='display-text'>That is an <span class='type'>Equilateral</span> triangle<p><span class='fill'>ALL</span> sides are equal";
+        }
+
     }
 }
 
