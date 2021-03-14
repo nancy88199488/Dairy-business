@@ -31,7 +31,16 @@ function track(a,b,c) {
     else if(isNaN(a) || isNaN(b) || isNaN(c)) {
         display.innerHTML = "<p class='display-text'>That is <span class='not'>NOT</span> a number</p>";
     }
+    else {
+        display.innerHTML = "<p class='display-text'>That is <span class='not'>NOT</span> a triangle</p><p>The sum of any two sides should be <span class='fill'>GREATER</span>than the third side</p>"
+    
+    }
 }
+function resoet() {
+    location.reload();
+}
+
+
 
 
     
