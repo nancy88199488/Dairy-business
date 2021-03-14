@@ -7,7 +7,8 @@ function triangle() {
     var display = document.getElementById("display");
     var explanation = document.getElementById("explanation");
     if(a. length === 0 || b.length === 0 || c.length === 0 ) {
-        
+        display.innerHTML = "<p>please <span class='fill>FILL</span> all the fields </p>"
+
     }
 
 
